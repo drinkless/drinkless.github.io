@@ -1927,7 +1927,7 @@ a.tgme_action_button_new {
   font-weight: bold;
   line-height: 100%;
   color: #FFF;
-  background: #32afed;
+  background: #5dc390;
   border-radius: 22px;
   overflow: hidden;
   display: inline-block;
@@ -1943,11 +1943,11 @@ a.tgme_action_button_new:active {
   text-decoration: none;
 }
 a.tgme_action_button_new {
-  background: #32afed;
+  background: #33d684;
 }
 a.tgme_action_button_new:hover,
 a.tgme_action_button_new:active {
-  background: #3ca2d9;
+  background: #28c979;
 }
 
 .tgme_page_web_action {
