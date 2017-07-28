@@ -1939,15 +1939,15 @@ a.tgme_action_button:active,
 a.tgme_action_button_new:hover,
 a.tgme_action_button_new:active {
   color: #FFF;
-  background: #4bbc87;
+  background: #32afed;
   text-decoration: none;
 }
 a.tgme_action_button_new {
-  background: #33d684;
+  background: #32afed;
 }
 a.tgme_action_button_new:hover,
 a.tgme_action_button_new:active {
-  background: #28c979;
+  background: #3ca2d9;
 }
 
 .tgme_page_web_action {
