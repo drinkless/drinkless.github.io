@@ -5,7 +5,7 @@ body {
 
 a,
 a:hover {
-  color: #0088cc;
+    color: #d38c3b;
 }
 a:focus {
   text-decoration: none;
@@ -1775,7 +1775,7 @@ video.smartphone_video_player {
 .tgme_page_wrap a,
 .tgme_page_wrap a:hover,
 .tgme_page_wrap a:active {
-  color: #3ca2d9;
+    color: #d38c3b;
 }
 
 .tgme_head_wrap {
@@ -1927,7 +1927,7 @@ a.tgme_action_button_new {
   font-weight: bold;
   line-height: 100%;
   color: #FFF;
-  background: #5dc390;
+  background: #d38c3b;
   border-radius: 22px;
   overflow: hidden;
   display: inline-block;
@@ -1939,15 +1939,15 @@ a.tgme_action_button:active,
 a.tgme_action_button_new:hover,
 a.tgme_action_button_new:active {
   color: #FFF;
-  background: #32afed;
+  background: #d38c3b;
   text-decoration: none;
 }
 a.tgme_action_button_new {
-  background: #32afed;
+    background: #e28c28;
 }
 a.tgme_action_button_new:hover,
 a.tgme_action_button_new:active {
-  background: #3ca2d9;
+    background: #d38c3b;
 }
 
 .tgme_page_web_action {
