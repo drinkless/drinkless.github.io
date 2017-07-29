@@ -1,0 +1,124 @@
+body {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+  /*-webkit-font-smoothing: antialiased;*/
+}
+
+a,
+a:hover {
+    color: #d38c3b;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.tgme_page_wrap {
+  font-family: 'Roboto', sans-serif;;
+  color: #2b2d2e;
+}
+.tgme_page_wrap a,
+.tgme_page_wrap a:hover,
+.tgme_page_wrap a:active {
+    color: #d38c3b;
+}
+
+.tgme_page {
+  margin: 82px auto 50px;
+  max-width: 424px;
+}
+.tgme_page_photo {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.tgme_page_photo_image {
+  width: 122px;
+  height: 122px;
+  border-radius: 61px;
+}
+.tgme_page_title {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 340px;
+  padding: 0 10px;
+  margin: 0 auto;
+  color: #333;
+}
+.tgme_page_extra {
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #808080;
+}
+.tgme_page_description {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  max-width: 340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.tgme_page_description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 125px;
+}
+.tgme_page_action {
+  text-align: center;
+  margin-top: 32px;
+  line-height: 0;
+}
+a.tgme_action_button_new {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 100%;
+  color: #FFF;
+  background: #d38c3b;
+  border-radius: 22px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 15px 27px 13px;
+  text-transform: uppercase;
+}
+a.tgme_action_button_new:hover,
+a.tgme_action_button_new:active {
+  color: #FFF;
+  background: #d38c3b;
+  text-decoration: none;
+}
+a.tgme_action_button_new {
+    background: #e28c28;
+}
+a.tgme_action_button_new:hover,
+a.tgme_action_button_new:active {
+    background: #d38c3b;
+}
+
+
+@media (max-width: 640px) {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  /* Telegram.me */
+  .tgme_page {
+    margin-top: 110px;
+  }
+  .tgme_page_photo_image {
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+  }
+}
