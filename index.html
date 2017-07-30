@@ -46,7 +46,12 @@
 <div class="tgme_page_action">
   <a class="tgme_action_button_new" href="mailto:hello@drinkless.dog">Send Email</a>
 </div>
-
+ <script>document.addEventListener('touchmove', function(event) {
+    event = event.originalEvent || event;
+    if(event.scale > 1) {
+      event.preventDefault();
+    }
+  }, false);</script>
       </div>
     </div>
 </body></html>
