@@ -82,7 +82,7 @@ a:hover {
   word-break: break-word;
 }
 .page_additional {
-  display: none;
+  display: block;
   font-size: 14px;
   line-height: 23px;
   margin-top: 32px;
@@ -90,7 +90,7 @@ a:hover {
 }
 .page_action {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 10px;
   line-height: 0;
 }
 a.action_button_new {
