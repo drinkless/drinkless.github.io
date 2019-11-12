@@ -61,13 +61,16 @@ a:hover {
   text-align: center;
   margin-bottom: 6px;
 }
-.page_description {
+.page_description,
+.page_additional {
   font-size: 16px;
   line-height: 23px;
   text-align: center;
   max-width: 340px;
   padding: 0 10px;
   margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .page_description {
   display: -webkit-box;
@@ -76,6 +79,14 @@ a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   max-height: 125px;
+  word-break: break-word;
+}
+.page_additional {
+  display: none;
+  font-size: 14px;
+  line-height: 23px;
+  margin-top: 32px;
+  color: #808080;
 }
 .page_action {
   text-align: center;
@@ -84,7 +95,7 @@ a:hover {
 }
 a.action_button_new {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
   color: #FFF;
   background: #d38c3b;
@@ -110,13 +121,13 @@ a.action_button_new:active {
 a.action_button_new:before {
   display: inline-block;
   content: '';
-  width: 20px;
-  height: 17px;
-  margin-right: 15px;
+  width: 21px;
+  height: 18px;
+  margin-right: 12px;
   vertical-align: top;
   position: relative;
   top: 2px;
-  background: url('data:image/svg+xml,%3Csvg height="17" viewBox="0 0 20 17" width="20" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="m1.375 7.318c5.369-2.399 8.949-3.98 10.74-4.744 5.114-2.182 6.177-2.561 6.87-2.574.152-.003.493.036.713.22.187.155.238.364.262.511.025.147.055.482.031.744-.277 2.987-1.476 10.235-2.086 13.58-.259 1.416-.767 1.89-1.259 1.937-1.069.101-1.882-.725-2.917-1.422-1.621-1.09-1.636-.811-3.174-1.911-1.376-.983-1.084-2.256-.048-3.36.271-.289 3.799-4.174 3.89-4.573.011-.05.138-.698.03-.796-.107-.098-.606-.101-.72-.075-.163.038-2.447 1.6-6.852 4.686-.735.518-1.401.77-1.997.757-.658-.015-1.923-.382-2.863-.695-1.153-.385-2.07-.588-1.99-1.241.041-.34.498-.688 1.37-1.044z" fill="%23fff" fill-rule="evenodd"/%3E%3C/svg%3E') no-repeat;
+  background: url('data:image/svg+xml,%3Csvg height="18" viewBox="0 0 21 18" width="21" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="m1.375 7.318c5.369-2.399 8.949-3.98 10.74-4.744 5.114-2.182 6.177-2.561 6.87-2.574.152-.003.493.036.713.22.187.155.238.364.262.511.025.147.055.482.031.744-.277 2.987-1.476 10.235-2.086 13.58-.259 1.416-.767 1.89-1.259 1.937-1.069.101-1.882-.725-2.917-1.422-1.621-1.09-1.636-.811-3.174-1.911-1.376-.983-1.084-2.256-.048-3.36.271-.289 3.799-4.174 3.89-4.573.011-.05.138-.698.03-.796-.107-.098-.606-.101-.72-.075-.163.038-2.447 1.6-6.852 4.686-.735.518-1.401.77-1.997.757-.658-.015-1.923-.382-2.863-.695-1.153-.385-2.07-.588-1.99-1.241.041-.34.498-.688 1.37-1.044z" fill="%23fff" fill-rule="evenodd"/%3E%3C/svg%3E') no-repeat;
 }
 a.action_extra {
   font-size: 15px;
