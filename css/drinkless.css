@@ -144,10 +144,17 @@ a.action_extra:active {
   }
 }
 
+@media (max-width: 320px) {
+
+  .page {
+    margin-top: 64px;
+  }
+}
+
 @media (max-width: 480px) {
 
   .page {
-    margin-top: 110px;
+    margin-top: 90px;
   }
   .page_photo_image {
     width: 110px;
