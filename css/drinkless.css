@@ -144,13 +144,6 @@ a.action_extra:active {
   }
 }
 
-@media (max-width: 320px) {
-
-  .page {
-    margin-top: 64px;
-  }
-}
-
 @media (max-width: 480px) {
 
   .page {
@@ -160,5 +153,12 @@ a.action_extra:active {
     width: 110px;
     height: 110px;
     border-radius: 55px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .page {
+    margin-top: 64px;
   }
 }
