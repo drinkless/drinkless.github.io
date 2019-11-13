@@ -136,6 +136,10 @@ a.action_extra:hover,
 a.action_extra:active {
     text-decoration: none;
 }
+.dog_emoji {
+  width: 26px;
+  height: 22px;
+}
 
 
 @media (max-width: 640px) {
