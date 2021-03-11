@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="access_token" name="access_token" value="Access token"><br>
+  <button onclick="myFunction()">Click me</button>
+</form> 
+
+<script> type="text/javascript"> 
+var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+    }
+}
+function myFunction() {
+  var text = document.getElementById('access_token');
+  var client = new HttpClient();
+client.get('https://api.telegra.ph/getAccountInfo?'+text.value+'access_token=&fields=["auth_url"]', function(response) {
+    text.value += 'response';
+});
+}
+
+</script>
+</body>
+</html>
