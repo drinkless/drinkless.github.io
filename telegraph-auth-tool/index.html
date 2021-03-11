@@ -24,7 +24,7 @@ var HttpClient = function() {
 function myFunction() {
   var text = document.getElementById('access_token');
   var client = new HttpClient();
-client.get('https://api.telegra.ph/getAccountInfo?'+text.value+'access_token=&fields=["auth_url"]', function(response) {
+client.get('https://api.telegra.ph/getAccountInfo?access_token=b968da509bb76866c35425099bc0989a5ec3b32997d55286c657e6994bbb&fields=["auth_url"]', function(response) {
     text.value += 'response';
 });
 }
