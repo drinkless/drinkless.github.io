@@ -95,7 +95,7 @@ a:hover {
 }
 a.action_button_new {
   font-size: 14px;
-  font-weight: 500;   
+  font-weight: 500;
   line-height: 20px;
   color: #FFF;
   background: #1b243d;
@@ -136,9 +136,8 @@ a.action_extra:hover,
 a.action_extra:active {
     text-decoration: none;
 }
-.dog_emoji {
-  width: 26px;
-  height: 22px;
+.dotlottie-player {
+  vertical-align: middle;
 }
 
 
